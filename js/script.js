@@ -1,7 +1,4 @@
 
-
-
-
 let modal = document.getElementById("myModal");
 let closeBtn = document.getElementsByClassName("close")[0];
 function openModal() {
@@ -14,6 +11,25 @@ let app = document.getElementById("adobeApp");
 app.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 
+document.addEventListener("DOMContentLoaded", function() {
+  let image = document.getElementById("popup-image");
+  image.addEventListener("click", function() {
+      
+      let newWindow = window.open("http://www.youtube.com");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let chrome = document.getElementById("popup-chrome");
+  chrome.addEventListener("click", function() {
+      let newWindow1 = window.open("http://www.google.com");
+     
+  });
+});
+
+
+
+
 
 function formatDate(date) {
   let hours = date.getHours();
@@ -25,6 +41,7 @@ function formatDate(date) {
   let strTime = hours + ':' + minutes + ' ' + ampm;
   return strTime;
 }
+
 const getCurrentDateTime = () => {
   let currentDateTime = new Date();
   let year = currentDateTime.getFullYear();
