@@ -7,6 +7,7 @@ function openModal() {
 function closeModal() {
   modal.style.display = "none";
 }
+
 let app = document.getElementById("adobeApp");
 app.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
@@ -26,10 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
      
   });
 });
-
-
-
-
 
 function formatDate(date) {
   let hours = date.getHours();
