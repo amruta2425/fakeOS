@@ -1,99 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css" />
-  <script src="./js/script.js" defer></script>
-  <title>Windows XP</title>
-</head>
-<body>
-  <div class = "windows-desktop">
-    <div class="desktop-wallpaper">
-    <div class="desktop-icons">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
+    <link rel="stylesheet" href="Styles/wallpaper.css" />
+    <link rel="stylesheet" href="Styles/footer.css" />
+    <link rel="stylesheet" href="Styles/icon-styles.css" />
+    <!-- javascript -->
+    <script defer src="js/script.js"></script>
+    
+    <title>Windows XP</title>
+  </head>
+  <body>
+    <div class="screen" id="screen">
+      <article class="landing-page">
+        <section
+          class="section__wallpaper--align"
+          id="section__wallpaper--align"
+        >
+          <img id="section__background--image" src="Images/windows.jpg" />
+        </section>
+
+        <!-- footer section -->
+        <footer class="section__footer--align">
+
+          <!-- Start Button -->
+          <button
+            class="section__start-button--align"
+            id="section__start-button--align"
+            type="button"
+          >
+            <img src="Images/start_image.jpg" />
+            </button>
+
+
+          <!--------------------Menu Items in the start button-------------------->
+          <section class="section__menu--flex" id="section__menu--flex">
+            <div class="container__account-name--flex">
+              <div class="image" id="image">
+               
+                <div class="program" id="program">
+                  <h1>Amruta</h1>
+                </div>
+              </div>
+            </div>
+            <section class="section__menuitems--flex">
+              <div class="container__menuitems-column1--flex">
+
+          <!------------------------<div class="menu__list--items">---------------------->
+                <div class="label">
+                  <div class="image" id="image">
+                    <img src="Images/internet_explorer.ico" />
+                  </div>
+                  <div class="words">
+                    <div class="intent">Internet</div>
+                    <div class="program">Internet Explorer</div>
+                  </div>
+                </div>
+                <div class="label">
+                  <div class="image" id="image">
+                    <img src="Images/email.ico" />
+                  </div>
+                  <div class="words">
+                    <div class="intent">E-mail</div>
+                    <div class="program">Outlook Express</div>
+                  </div>
+                </div>
+
+       <!----------------------------------</div>------------------------------------->
+
+                <div class="menu__list--items">
+                  <div class="menu__list--item">
+                    <img src="Images/cmd-exe.png" />
+                    <div class="text" id="text">Command Prompt</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/MSN.ico" />
+                    <div class="text" id="text">MSN</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/media.ico" />
+                    <div class="text" id="text">Windows Media Player</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Windows Messenger.ico" />
+                    <div class="text" id="text">Windows Messenger</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Notepad.ico" />
+                    <div class="text" id="text">Notepad</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Tour windows XP.ico" />
+                    <div class="text" id="text">Tour Windows XP</div>
+                  </div>
+
+                  <div class="all-programs">
+                    <div class="text" id="text">All Programs</div>
+                    <img src="Images/All Programs.ico" />
+                  </div>
+                </div>
+              </div>
+              <div class="container__menuitems-column2--flex">
+                <div class="container__favorites--flex">
+                  <div class="menu__list--item">
+                    <img src="Images/My Documents.ico" />
+                    <div class="text" id="text">My Documents</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/My Recent Documents.ico" />
+                    <div class="text" id="text">My Recent Documents</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/My_pictures.ico" />
+
+                    <div class="text" id="text">My Pictures</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/My Music.ico" />
+
+                    <div class="text" id="text">My Music</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/My Computer.ico" />
+
+                    <div class="text" id="text">My Computer</div>
+                  </div>
+                </div>
+                <div class="container__menuitems-col2--flex">
+                  <div class="menu__list--item">
+                    <img src="Images/Control Panel.ico" />
+
+                    <div class="text" id="text">Control Panel</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Set program access.ico" />
+
+                    <div class="text" id="text">
+                      Set Program Access and Defaults
+                    </div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Printers and faxs.ico" />
+
+                    <div class="text" id="text">Printers and Faxes</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Help_and_support.ico" />
+
+                    <div class="text" id="text">Help and Support</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Search.ico" />
+
+                    <div class="text" id="text">Search</div>
+                  </div>
+                  <div class="menu__list--item">
+                    <img src="Images/Run.ico" />
+
+                    <div class="text" id="text">Run......</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+        <!----------------------------------clock---------------------------------->
+          <section
+            class="section__clock--align"
+            id="section__clock--align"
+          ></section>
+        </footer>
+
+        <!------------------------------------Apps on the desktop--------------------->
+
+        <div  class="desktop-icons"></div>
+        <div class="icon" id="mycomputer">
+          <img src="images/mycomputer.png" class="icon__image" alt="mycomputer"><span class="icon__text">My Computer</span>
+        </div>
+  
         
-      <div class="icon" id="mycomputer">
-        <img src="images/mycomputer.png" class="icon__image" alt="mycomputer"><span class="icon__text">My Computer</span>
-      </div>
-
-      <!-- <div class="icon" id="youtube">
-      <img id="popup-image" src="images/youtube.png" alt="Pop-up Image">
-      </div> -->
-      <div class="icon" id="youtube">
-        <img src ="images/youtube.png" id="popup-image" class ="icon__image"><span class="icon__text">YouTube</span>
-      </div>
-
-      <div class="icon" id="recyclebin">
-        <img src="images/recyclebin.png" class="icon__image" alt="recyclebin"><span class="icon__text">Recycle Bin</span>
-      </div>
-
-      <div class="icon" id="google-chrome">
-        <img src="images/chrome.png" id="popup-chrome"class="icon__image" alt="Google-Chrome"><span class="icon__text">Google Chrome</span>
-      </div>
-
-      <div class="icon" id="adobe">
-      <img src="images/adobe.png" class="icon__image"  id= "adobeApp" alt="Adobe" ><span class="icon__text">Adobe</span>
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <div class="modal-header">
-              <span class="close">&times;</span>
-            <h2>Adobe</h2>
-          </div>
-          <div class="modal-body">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        <div class="icon" id="youtube">
+          <img src ="images/youtube.png" id="popup-image" class ="icon__image"><span class="icon__text">YouTube</span>
+        </div>
+  
+        <div class="icon" id="recyclebin">
+          <img src="images/recyclebin.png" class="icon__image" alt="recyclebin"><span class="icon__text">Recycle Bin</span>
+        </div>
+  
+        <div class="icon" id="google-chrome">
+          <img src="images/chrome.png" id="popup-chrome"class="icon__image" alt="Google-Chrome"><span class="icon__text">Google Chrome</span>
+        </div>
+  
+        <div class="icon" id="adobe">
+        <img src="images/adobe.png" class="icon__image"  id= "adobeApp" alt="Adobe" ><span class="icon__text">Adobe</span>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+              <h2>Adobe</h2>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                  Unde, vitae id optio accusantium error maxime enim voluptates 
                  exercitationem esse illo veniam consequuntur dolore aliquid
-                  molestiae, 
-                 et earum. Fugiat, soluta deleniti.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 molestiae,et earum. Fugiat, soluta deleniti.
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                  Magni vitae eaque ipsa. Maiores quia velit doloribus vitae.
-                  Labore fuga repellendus magni, ipsam excepturi ea vero accusamus 
-                  quibusdam corrupti possimus culpa!</p>
-          </div>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="taskbar-icons">
-
-      <div class="taskbar-icon" id="start-menu">
-
-        <img src="images/start1.png" class="taskbar-icon__image" alt="start menu">
-
-        <div class="dropup-content">
+                 Labore fuga repellendus magni, ipsam excepturi ea vero accusamus 
+                 quibusdam corrupti possimus culpa!</p>
+            </div>
             
-          <a href="#"> <img src="images/settings.png" class="dropup-content-image" alt="file-explorer">Settings</a>
-          <a href="#"><img src="images/stand-by.png" class="dropup-content-image" alt="my computer">Stand-by</a>
-          <a href="#"><img src="images/restart.png" class="dropup-content-image" alt="Google Chrome">Restart</a>
-          <a href="#"><img src="images/shut-down.png" class="dropup-content-image" alt="notepad">Shut-Down</a>
-
+            </div>
+          </div>
         </div>
-
       </div>
-
-      <div class="taskbar-icon" id="fire-fox">
-        <img src="images/fire.png" class="taskbar-icon__image" alt="file-fox"><span class="taskbar-icon__text"></span>
-      </div>
-
-      <div class="taskbar-icon" id="internet-explorer">
-        <img src="images/ie.png" class="taskbar-icon__image" alt="internet-explorer"><span class="taskbar-icon__text"></span>
-      </div>
-
-      <div class="taskbar-icon" id="browser">
-        <img src="images/opera.png" class="taskbar-icon__image" alt="browser"><span class="taskbar-icon__text"></span>
-      </div>
-
-      <div id="datetime"></div>
-
     </div>
 
-  </div>
-
-  </div>
-
-  <footer class="footer">
-
-  </footer>
-</body>
+    </article>
+    </div>
+  </body>
 </html>
