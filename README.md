@@ -1,6 +1,6 @@
 # Project: FakeOS
 
-![Landing Page](public/one.png)
+![Landing Page](public/landing.png)
 
 ## Overview
 
