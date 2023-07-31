@@ -1,5 +1,7 @@
 # Project: FakeOS
 
+![Landing Page](public/one.png)
+
 ## Overview
 
 This project done using design/image using CSS, add content via HTML and control the interactive elements via JavaScript.
