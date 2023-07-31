@@ -1,0 +1,185 @@
+//Styles for Icons on desktop
+
+.screen {
+  position: relative;
+
+  .landing-page{
+
+  //Styles for footer
+  .section__footer--align {
+    background-color: #2479da;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    z-index: 1;
+
+    .section__start-button--align {
+      padding: 0;
+      margin: 0;
+      line-height: 0;
+      img {
+        width: 6vw;
+        height: 4vh;
+      }
+    }
+
+    .section__menu--flex {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      bottom: 100%;
+      background-color: whitesmoke;
+      border: 0.1px solid transparent;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      overflow: hidden;
+
+      .container__account-name--flex {
+        display: inline-flex;
+        justify-content: space-between;
+        background-color: #2479da;
+        padding: 6px;
+        margin: 0;
+        top: 0%;
+        margin-bottom: 1px;
+
+        .image {
+          display: inline-flex;
+          padding: 5px;
+          margin-right: 10px;
+          width: 5vw;
+          height: 5vh;
+          align-items: center;
+          text-align: center;
+          h1 {
+            padding: 5px;
+          }
+        }
+      }
+
+      .section__menuitems--flex {
+        display: inline-flex;
+        flex-direction: row;
+
+
+        .container__menuitems-column1--flex {
+          font-size: 18px;
+          
+            .label {
+              display: flex;
+              margin-left: 5px;
+              align-items: center;
+              text-align: left;
+
+              .words {
+                padding: 5px;
+                .intent {
+                  font-weight: bold;
+                  color: black;
+                }
+                .program {
+                  color: grey;
+                }
+              }
+              &:hover {
+                background-color: #2479da;
+              }
+            }
+
+          .menu__list--items {
+            .menu__list--item {
+              display: flex;
+              align-items: center;
+              text-align: left;
+              margin-left: 5px;
+              padding: 5px;
+              .text {
+                color: black;
+                padding: 5px;
+              }
+              &:hover {
+                background-color: #2479da;
+              }
+            }
+
+            .all-programs {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              padding: 5px;
+              a {
+                padding: 0px 8px 8px 8px;
+              }
+              &:hover {
+                background-color: #2479da;
+              }
+            }
+          }
+        }
+
+        .container__menuitems-column2--flex {
+          background-color: rgb(204, 203, 203);
+          display: inline-block;
+          flex-direction: column;
+          align-items: center;
+          text-align: left;
+
+          img {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+
+          .container__favorites--flex {
+            display: inline-flex;
+            flex-direction: column;
+            margin-left: 2px;
+            padding: 5px;
+            .menu__list--item {
+              display: inline-flex;
+              padding: 3px;
+              .text {
+                font-weight: bold;
+                padding: 3px;
+              }
+              &:hover {
+                background-color: #2479da;
+              }
+            }
+          }
+          .container__menuitems-col2--flex {
+            margin-left: 2px;
+            padding: 5px;
+            .menu__list--item {
+              display: flex;
+              padding: 3px;
+              .text {
+                color: black;
+                padding: 3px;
+              }
+              &:hover {
+                background-color: #2479da;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .section__clock--align {
+      position: absolute;
+      right: 0;
+      color: white;
+      padding: 10px;
+    }
+  }
+}
+}
