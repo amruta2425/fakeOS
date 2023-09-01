@@ -1,6 +1,5 @@
 # Project: FakeOS
 ### 👉 [Go to Fake Windows OS](https://fakeos1105.netlify.app)
-![Landing Page](public/landing.png)
 
 ## Overview
 
@@ -18,3 +17,5 @@ This project done using design/image using CSS, add content via HTML and control
 -   There will be a selectable menu
 -   Selecting the menu will display a list of text and icons
 -   The current time is displayed 
+
+![Landing Page](public/landing.png)
