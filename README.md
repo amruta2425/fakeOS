@@ -18,4 +18,4 @@ This project done using design/image using CSS, add content via HTML and control
 -   Selecting the menu will display a list of text and icons
 -   The current time is displayed 
 
-![Landing Page](public/landing.png)
+![Landing Page](landing.png)
